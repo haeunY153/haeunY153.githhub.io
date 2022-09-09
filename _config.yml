@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Diana's Note"
+title                    : "Diana's Tech Note"
 title_separator          : "|"
-subtitle                 : "Glowing Everday + Positive Mind"
+subtitle                 : "Everyday dream and focus"
 name                     : "Diana Yim"
 description              : "Diana Yim의 블로그 입니다."
 url                      : "https://haeunY153.github.io"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "DianaYim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ecommerce Specialist - Data Analyst"
+  bio              : "Ecommerce Data Analyst"
   location         : "South Korea"
   email            :
   links:
