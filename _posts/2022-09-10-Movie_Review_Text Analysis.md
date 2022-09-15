@@ -1,5 +1,10 @@
-### matplotlib font 깨짐 현상 방지, 한글 폰트 설정
+---
+layout: single
+title: "2022.09_네이버 영화 리뷰 감성분석"
+categories: NLP
+---
 
+### matplotlib font 깨짐 현상 방지, 한글 폰트 설정
 
 ```python
 from matplotlib import font_manager
