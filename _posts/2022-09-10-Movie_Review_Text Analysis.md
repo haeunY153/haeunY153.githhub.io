@@ -4,9 +4,14 @@ title: "2022.09_네이버 영화 리뷰 감성분석"
 categories: Text_Analysis
 tags: [Wordcloud, Text_Mining]
 toc: True
+author_profile: False
+sidebar:
+    nav: "docs"
+
+# 검색 안 되게 하려면 search: false로 하면 됨
 ---
 
-- 네이버 영화 사이트에서 영화 리뷰를 scrapping 해서 영화 별 리뷰 시각화, 긍부정 점수로 트렌드 파악해보기
+<h5>영화 리뷰 scrapping & 시각화, 긍부정 점수로 트렌드 파악하기</h5>
 
 ```python
 # matplotlib font 깨짐 현상 방지, 한글 폰트 설정
