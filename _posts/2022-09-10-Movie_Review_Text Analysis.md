@@ -1,12 +1,14 @@
 ---
 layout: single
 title: "2022.09_네이버 영화 리뷰 감성분석"
-categories: NLP
+categories: Text_Analysis
+tags: [Wordcloud, Text_Mining]
+toc: True
 ---
 
-### matplotlib font 깨짐 현상 방지, 한글 폰트 설정
-
 ```python
+
+# matplotlib font 깨짐 현상 방지, 한글 폰트 설정
 from matplotlib import font_manager
 
 !apt install fonts-nanum
@@ -34,7 +36,7 @@ plt.rcParams['font.family'] = 'NanumGothic'
     0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
     
 
-# 1.  자연어 처리 한국어 자연어처리 패키지 konlpy install하기
+### 1.  자연어 처리 한국어 자연어처리 패키지 konlpy install하기
 
 
 ```python
@@ -49,12 +51,12 @@ plt.rcParams['font.family'] = 'NanumGothic'
     Requirement already satisfied: typing-extensions in /usr/local/lib/python3.7/dist-packages (from JPype1>=0.7.0->konlpy) (4.1.1)
     
 
-## 2. 과제
+### 2. 과제
 - 1) 네이버 영화 리뷰 페이지에서 영화 리뷰 수집
 - 2) 영화 이름 조회 시 리뷰 긍정 부정 점수, 평균 점수 출력
 - 3) 영화 별 워드클라우드 만들기
 
-### 2-1) 네이버 영화 리뷰 페이지에서 영화 리뷰 수집
+#### 2-1) 네이버 영화 리뷰 페이지에서 영화 리뷰 수집
 
 
 ```python
@@ -546,10 +548,10 @@ def score_standard(x):
     return 0
 ```
 
-#### 정의한 함수로 apply로 데이터 적용
-
 
 ```python
+# 정의한 함수로 apply로 데이터 적용
+
 train["rate_label"] = train["score"].apply(score_standard)
 ```
 
@@ -1069,7 +1071,7 @@ font_list
 plt.rcParams['font.family'] = 'NanumGothic'
 ```
 
-### 2-2) 영화 이름 조회 시 리뷰 긍정 부정 점수, 평균 점수 출력
+#### 2-2) 영화 이름 조회 시 리뷰 긍정 부정 점수, 평균 점수 출력
 
 
 ```python
@@ -1287,7 +1289,7 @@ result.sort_values('Positive', ascending=False)
 
 
 
-### 2-3) 워드 클라우드 만들기
+#### 2-3) 워드 클라우드 만들기
 
 
 ```python
@@ -1355,20 +1357,12 @@ for movie in tqdm_notebook(movies):
   print()
 ```
 
-    /usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:22: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
-    Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
-    
-
-
-      0%|          | 0/5 [00:00<?, ?it/s]
-
-
     영화 이름: 공조2: 인터내셔날
     
 
 
     
-![png](../images/2022-09-10/output_25_3.png)
+![image](/images/2022-09-10/output_25_3.png)
     
 
 
@@ -1378,7 +1372,7 @@ for movie in tqdm_notebook(movies):
 
 
     
-![png](../images/2022-09-10/output_25_5.png)
+![image](/images/2022-09-10/output_25_5.png)
     
 
 
@@ -1388,7 +1382,7 @@ for movie in tqdm_notebook(movies):
 
 
     
-![png](../images/2022-09-10/output_25_7.png)
+![image](/images/2022-09-10/output_25_7.png)
     
 
 
@@ -1398,7 +1392,7 @@ for movie in tqdm_notebook(movies):
 
 
     
-![png](../images/2022-09-10/output_25_9.png)
+![image](/images/2022-09-10/output_25_9.png)
     
 
 
@@ -1408,7 +1402,7 @@ for movie in tqdm_notebook(movies):
 
 
     
-![png](../images/2022-09-10/output_25_11.png)
+![image](/images/2022-09-10/output_25_11.png)
     
 
 
