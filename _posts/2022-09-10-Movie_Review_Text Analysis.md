@@ -2,7 +2,7 @@
 layout: single
 title: "2022.09_네이버 영화 리뷰 감성분석"
 categories: Text_Analysis
-tags: [Wordcloud, Text_Mining]
+tags: [Wordcloud, Text_Mining, python]
 toc: True
 author_profile: False
 sidebar:
