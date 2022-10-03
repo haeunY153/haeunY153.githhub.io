@@ -6,8 +6,9 @@ tags: [Wordcloud, Text_Mining]
 toc: True
 ---
 
-```python
+- 네이버 영화 사이트에서 영화 리뷰를 scrapping 해서 영화 별 리뷰 시각화, 긍부정 점수로 트렌드 파악해보기
 
+```python
 # matplotlib font 깨짐 현상 방지, 한글 폰트 설정
 from matplotlib import font_manager
 
