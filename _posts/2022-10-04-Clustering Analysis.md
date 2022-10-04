@@ -1,4 +1,16 @@
+---
+layout: single
+title: "[Python] 군집 분석 - K-means"
+categories: Data_Analysis
+tags: [clustering, python]
+toc: True
+author_profile: False
+sidebar:
+    nav: "docs"
+---
+
 ### 1. 사이킷런을 사용한 k-평균 군집
+
 
 - **K-평균(K-means) 군집: 데이터의 평균/가장 자주 등장하는 특성으로 객체를 묶는 것**
 - 활용: 문서/음악/영화 주제별 grouping, 구매 이력의 공통 특성을 갖는 고객 grouping
