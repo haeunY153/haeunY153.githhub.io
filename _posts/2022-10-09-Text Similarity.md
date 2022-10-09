@@ -74,7 +74,7 @@ B = {사람,들,은,아무도,오늘,비,가,올,지,예상,하,지,못했다,�
 - 내적공간의 두 벡터간 각도의 코사인값을 이용하여 측정된 벡터간의 유사한 정도를 의미한다. <br>
 - 각도가 0°일 때의 코사인값은 1이며, 다른 모든 각도의 코사인값은 1보다 작다.<br>
 - 공식: 
-![image.png](attachment:image.png)
+![image](https://wikimedia.org/api/rest_v1/media/math/render/svg/2a8c50526e2cc7aa837477be87eff1ea703f9dec)
 
 
 ```python
@@ -120,7 +120,7 @@ print(f'유사 정도는 {round(result[0][0],2)*100} 점 입니다.')
  - 직교 좌표계로 나타낸 점 p = (p1, p2,..., pn)와 q = (q1, q2,..., qn)가 있을 때, 
  - 두 유클리드 노름을 이용하여 두 점 p, q의 거리를 계산하면 다음과 같다.
 
- ![image](/images/2022-10-09/cosine_similarity.png)
+ ![image](https://wikimedia.org/api/rest_v1/media/math/render/svg/2e0c9ce1b3455cb9e92c6bad6684dbda02f69c82)
 
 
 <br>
@@ -169,8 +169,8 @@ e_d = euclidean_distances(tfidf_norm_l1[0:1], tfidf_norm_l1[1:2])
  <br>
  - `위키피디아 설명 참조`: https://ko.wikipedia.org/wiki/%EB%A7%A8%ED%95%B4%ED%8A%BC_%EA%B1%B0%EB%A6%AC
 
-![image](/images/2022-10-09/formula.png)
-![image](/images/2022-10-09/manhattan_distance.png)
+![image](https://wikimedia.org/api/rest_v1/media/math/render/svg/4704625b5a645aae2cd0177cab7e8892b8f962bf)
+![image](https://commons.wikimedia.org/wiki/File:Manhattan_distance.svg)
 
 
 <br>
