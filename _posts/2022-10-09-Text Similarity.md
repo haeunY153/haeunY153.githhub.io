@@ -169,7 +169,7 @@ e_d = euclidean_distances(tfidf_norm_l1[0:1], tfidf_norm_l1[1:2])
  <br>
  [위키피디아 설명 참조](https://ko.wikipedia.org/wiki/%EB%A7%A8%ED%95%B4%ED%8A%BC_%EA%B1%B0%EB%A6%AC)
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Manhattan_distance.svg/200px-Manhattan_distance.svg.png)
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Manhattan_distance.svg/200px-Manhattan_distance.svg)
 ![image](https://commons.wikimedia.org/wiki/File:Manhattan_distance.svg)
 
 
